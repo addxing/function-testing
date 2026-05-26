@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Testing",
+      "description": "Skills for generating functional test cases and QA reports.",
+      "skills": [
+        "function-testing"
+      ]
+    }
+  ]
+}
