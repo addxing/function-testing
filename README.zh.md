@@ -2,7 +2,7 @@
 
 [![skills.sh](https://skills.sh/b/addxing/function-testing)](https://skills.sh/addxing/function-testing)
 
-面向 Codex/AI 编程代理的功能测试用例生成 Skill。它可以根据 PRD、Git 提交记录或用户故事生成功能测试用例，并输出 Excel 风格测试报告。
+面向各类 AI 编程代理的功能测试用例生成 Skill。它可以根据 PRD、Git 提交记录或用户故事生成功能测试用例，并输出 Excel 风格测试报告。
 
 ## 安装
 
@@ -12,7 +12,7 @@ npx skills add addxing/function-testing
 
 ## 使用方式
 
-安装后，在需要生成测试用例时，让 Codex 使用这个 Skill：
+安装后，在需要生成测试用例时，让你的 AI 代理使用这个 Skill：
 
 ```text
 Use $function-testing to generate test cases for this PRD.
@@ -37,5 +37,4 @@ Use $function-testing to generate test cases for this PRD.
 ## 文件说明
 
 - `SKILL.md` - Skill 指令
-- `agents/openai.yaml` - Codex UI 元数据
 - `LICENSE.txt` - Apache 2.0 许可证

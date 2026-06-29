@@ -1,4 +1,0 @@
-interface:
-  display_name: "Function Testing"
-  short_description: "Generate functional test cases as Excel"
-  default_prompt: "Use $function-testing to generate functional test cases from a PRD, Git commit, or user story."

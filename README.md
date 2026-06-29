@@ -2,7 +2,7 @@
 
 [![skills.sh](https://skills.sh/b/addxing/function-testing)](https://skills.sh/addxing/function-testing)
 
-A Codex-compatible skill for generating functional test cases from PRDs, Git commits, or user stories, and exporting an Excel-style test report.
+A skill for generating functional test cases from PRDs, Git commits, or user stories, and exporting an Excel-style test report. Works with any AI coding agent.
 
 ## Install
 
@@ -12,7 +12,7 @@ npx skills add addxing/function-testing
 
 ## Usage
 
-After installing the skill, ask Codex to use it when you need functional test cases:
+After installing the skill, ask your AI agent to use it when you need functional test cases:
 
 ```text
 Use $function-testing to generate test cases for this PRD.
@@ -37,7 +37,6 @@ This skill guides an agent to:
 ## Files
 
 - `SKILL.md` - the skill instructions
-- `agents/openai.yaml` - Codex UI metadata
 - `LICENSE.txt` - Apache 2.0 license
 
 ## Chinese Documentation
