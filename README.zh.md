@@ -24,6 +24,13 @@ git clone https://github.com/addxing/function-testing .dsh/skills/function-testi
 
 克隆后 DSH 会自动热更新技能目录，新会话即可使用该 Skill。
 
+也可以作为官方 bundle 插件一行安装（需要 pnpm，安装后重启 Web）：
+
+```bash
+dsh plugin --profile web add "github:addxing/function-testing#main"
+```
+
+
 ## 使用方式
 
 安装后，在需要生成测试用例时，让你的 AI 代理使用这个 Skill：
