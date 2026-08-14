@@ -10,6 +10,20 @@ A skill for generating functional test cases from PRDs, Git commits, or user sto
 npx skills add addxing/function-testing
 ```
 
+### DeepSeek Harness
+
+This repo follows the DeepSeek Harness (DSH) Skill format. Clone it into a skills directory and it will be auto-discovered:
+
+```bash
+# User-level install (available in all projects)
+git clone https://github.com/addxing/function-testing ~/.dsh/skills/function-testing
+
+# Project-level install (current project only)
+git clone https://github.com/addxing/function-testing .dsh/skills/function-testing
+```
+
+DSH hot-reloads the skills directory after cloning; the skill becomes available in new sessions.
+
 ## Usage
 
 After installing the skill, ask your AI agent to use it when you need functional test cases:
